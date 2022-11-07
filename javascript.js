@@ -30,3 +30,10 @@ btnFraseDois.addEventListener('click', () => {
     document.querySelector('#h3id').innerHTML = 'Tem que colaborar, tá?';
     document.querySelector("#flikedot").src = 'img/img-frasedois.jpg';
 });
+
+const linkInicio = document.querySelector('#inicio');
+linkInicio .addEventListener('click', () => {
+    document.querySelector('#h1id').innerHTML = 'FINGE QUE É UMA SEMENTE';
+    document.querySelector('#h3id').innerHTML = 'Tudo que formou essa árvore enorme já esteve dentro dessa semente pequenininha...';
+    document.querySelector("#flikedot").src = 'img/img-inicial.jpg';
+});
