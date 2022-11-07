@@ -39,7 +39,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .sectiontitles {
-        margin-bottom: -5vh;    
+        margin-bottom: -3vh;    
     }
   }
 
@@ -149,9 +149,14 @@ body {
 a {
     color: white;
     font-size: 2vh;
+    text-decoration: none;
 }
 
 a:active {
     color: #556B2F;
 }
 
+a[tabindex]:focus {
+    color:#556B2F;
+    outline: none;
+}
