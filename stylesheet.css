@@ -12,8 +12,9 @@ body {
   background-color: #5A5A5A;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 1vh;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -23,11 +24,6 @@ body {
       justify-content: center;
       gap: 3vh;
     }
-  
-    button {
-      min-width: 80vw;
-    }
-
   }
 .sectiontitles{
     height: 20vh;
@@ -37,11 +33,11 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 1100px) {
+/*@media only screen and (max-width: 1100px) {
     .sectiontitles {
         margin-bottom: -3vh;    
     }
-  }
+  }*/
 
 
 .h1title {
@@ -56,7 +52,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .h1title {
-        font-size: 8vw;     
+        font-size: 7vw;     
     }
   }
 
@@ -73,7 +69,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .h3subtitle {
-        font-size: 5vw;
+        font-size: 4vw;
     }
   }
 
@@ -101,7 +97,7 @@ body {
   }
 
 .sectionbotoes {
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +134,15 @@ body {
     background-color: #384d14;
     transform: scale(1.05);
 }
+
+@media only screen and (max-width: 1100px) {
+
+    .btn {
+      font-size: 4vw;
+      width: 80vw;
+    }
+
+  }
 
 .sectionrestar {
     height: 10vh;
