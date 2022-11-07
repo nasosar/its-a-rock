@@ -17,7 +17,7 @@ body {
   gap: 1vh;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     .sectionbotoes {
       display: flex;
       flex-direction: column;
@@ -44,13 +44,13 @@ body {
   max-width: 90vw;
   margin: 0 0 2vh 0;
   padding: 0;
-  font-size: 5vw;
+  font-size: 7.5vh;
   text-align: center;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     .h1title {
         font-size: 7vw;     
     }
@@ -60,14 +60,14 @@ body {
   max-width: 90vw;
   margin: 0;
   padding: 0;
-  font-size: 2vw;
+  font-size: 3vh;
   font-weight: 400;
   text-align: center;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     .h3subtitle {
         font-size: 4vw;
     }
@@ -81,14 +81,14 @@ body {
 }
 
 #flikedot {
-  width: 60vw;
-  height: auto;
+  width: 80vh;
+  height: 40vh;
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: ease-in .2s;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     #flikedot {
         width: 80vw;
         height: 70vw;
@@ -106,7 +106,7 @@ body {
 }
 
 .btn {
-  width: 25vw;
+  width: 38vh;
   height: 10vh;
   padding: 1.5vh;
   font-weight: 500;
@@ -135,7 +135,7 @@ body {
     transform: scale(1.05);
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
 
     .btn {
       font-size: 4vw;
