@@ -1,0 +1,108 @@
+@import url("http://fonts.cdnfonts.com/css/barlow");
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 5% 0;
+  font-family: "Barlow", sans-serif;
+  background-color: #5A5A5A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+@media only screen and (max-width: 1100px) {
+    .sectionbotoes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3vh;
+    }
+  
+    button {
+      min-width: 80vw;
+    }
+
+  }
+
+.h1title {
+  max-width: 90vw;
+  margin: 0 0 2vh 0;
+  padding: 0;
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .h1title {
+        font-size: 8vw;     
+    }
+  }
+
+.h3subtitle {
+  max-width: 90vw;
+  margin: 0;
+  padding: 0;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .h3subtitle {
+        font-size: 5vw;
+    }
+  }
+
+
+#flikedot {
+  width: 80vw;
+  height: 50vw;
+  object-fit: fill;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: ease-in .2s;
+}
+
+.sectionbotoes {
+  display: flex;
+  gap: 2.5vh;
+}
+
+.btn {
+  width: 25vw;
+  padding: 1.5vh;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  font-size: 2.5vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  transition: transform .25s;
+}
+
+/*.btn:hover {
+    background-color: #556B2F;
+    color: white;
+    font-weight: 500; 
+} */
+
+.btnpressed {
+    background-color: #556B2F;
+    color: white;
+    font-weight: 500; 
+    background-color: #384d14;
+    transform: scale(1.05);
+}
